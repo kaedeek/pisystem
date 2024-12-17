@@ -6,5 +6,5 @@ Feel free to use it.
 ## Usage
 
 ```
-python main.py
+python3 main.py
 ```
