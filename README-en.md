@@ -12,7 +12,7 @@ python3 main.py
 ## EXE FILE LIST
 
 **New Version**
-[new.exe](new.exe)
+[new.exe](exe/new.exe)
 
 **Old Version**
-[old.exe](old.exe)
+[old.exe](exe/old.exe)

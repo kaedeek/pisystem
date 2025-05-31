@@ -14,7 +14,7 @@ python3 main.py
 ## EXE FILE LIST
 
 **新バージョン**
-[new.exe](new.exe)
+[new.exe](exe/new.exe)
 
 **旧バージョン**
-[old.exe](old.exe)
+[old.exe](exe/old.exe)
