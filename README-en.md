@@ -8,3 +8,11 @@ Feel free to use it.
 ```
 python3 main.py
 ```
+
+## EXE FILE LIST
+
+**New Version**
+[new.exe](new.exe)
+
+**Old Version**
+[old.exe](old.exe)
