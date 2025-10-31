@@ -1,9 +1,9 @@
 from VersaLog import *
 
-import subprocess
 import json
+import subprocess
 
-logger = VersaLog(mode="detailed", show_file=False)
+logger = VersaLog(enum="detailed", tag="Pisystem", show_tag=True, all_save=False, save_levels=[])
 
 def update_package():
     result = subprocess.run(["pip", "list", "--outdated", "--format=json"], capture_output=True, text=True)
@@ -15,7 +15,10 @@ def update_package():
     
     def upgrade_package(pip_name):
         logger.info(f"Updating {pip_name}...")
-        subprocess.run(["pip", "install", "--upgrade", pip_name], check=True)
+        if pip_name.lower() == "pip":
+            subprocess.run(["python", "-m", "pip", "install", "--upgrade", "pip"], check=True)
+        else:
+            subprocess.run(["pip", "install", "--upgrade", pip_name], check=True)
 
     for pip in packages:
         upgrade_package(pip["name"])
