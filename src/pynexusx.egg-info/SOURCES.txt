@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/pynexusx/__init__.py
+src/pynexusx/main.py
+src/pynexusx.egg-info/PKG-INFO
+src/pynexusx.egg-info/SOURCES.txt
+src/pynexusx.egg-info/dependency_links.txt
+src/pynexusx.egg-info/entry_points.txt
+src/pynexusx.egg-info/requires.txt
+src/pynexusx.egg-info/top_level.txt
