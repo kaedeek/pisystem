@@ -27,7 +27,37 @@ pip install pynexusx
 
 ## Usage
 
-**Update all packages**
+### Update all packages
+
 ```bash
-Pyn
+Pyn --update
+```
+
+```bash
+[2025-11-15 03:43:54][INFO][Pisystem] : Updating certifi...
+Requirement already satisfied: certifi in c:\users\***\appdata\local\programs\python\python311\lib\site-packages (2025.10.5)
+Collecting certifi
+  Downloading certifi-2025.11.12-py3-none-any.whl.metadata (2.5 kB)
+Downloading certifi-2025.11.12-py3-none-any.whl (159 kB)
+Installing collected packages: certifi
+  Attempting uninstall: certifi
+    Found existing installation: certifi 2025.10.5
+    Uninstalling certifi-2025.10.5:
+      Successfully uninstalled certifi-2025.10.5
+Successfully installed certifi-2025.11.12
+```
+
+### List outdated packages
+
+```bash
+Pyn --list
+```
+
+```bash
+📝 Update Package List
+=============================================
+certifi
+prettytable
+yt-dlp
+=============================================
 ```

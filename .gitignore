@@ -1,7 +1,15 @@
+# Python cache
 __pycache__/
 *.py[cod]
 
+# VSCode settings
 .vscode/
+
+# Build artifacts
 build/
 dist/
+
+# egg-info anywhere (サブディレクトリ含めて無視)
 *.egg-info/
+src/**/*.egg-info/
+src/**/__pycache__/
