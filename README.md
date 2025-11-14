@@ -14,7 +14,6 @@
 
 - Current: Update all installed packages to the latest version
 - Planned features:
-  - List outdated packages (`list`)
   - Update specific packages only
   - Version pinning and automatic scheduled updates
 

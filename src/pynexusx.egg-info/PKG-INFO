@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: pynexusx
-Version: 1.0.2
+Version: 1.1.0
 Summary: A simple CLI tool to update all Python packages using VersaLog.
 Author: kaede
 License: MIT
@@ -30,7 +30,7 @@ Dynamic: summary
 [![Downloads](https://pepy.tech/badge/pynexusx)](https://pepy.tech/project/pynexusx)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Discord](https://img.shields.io/badge/Discord-Support%20Server-7289DA?style=flat&logo=discord)](https://discord.gg/MaWeRFxa)
+[![Discord](https://img.shields.io/badge/Discord-Support%20Server-7289DA?style=flat&logo=discord)](https://discord.gg/cY8QxHN5)
 
 `pynexusx` is a CLI tool that allows you to easily update all installed Python packages to their latest versions.
 
@@ -40,7 +40,6 @@ Dynamic: summary
 
 - Current: Update all installed packages to the latest version
 - Planned features:
-  - List outdated packages (`list`)
   - Update specific packages only
   - Version pinning and automatic scheduled updates
 

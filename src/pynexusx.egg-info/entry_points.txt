@@ -1,2 +1,2 @@
 [console_scripts]
-Pyn = pynexusx.main:update_package
+Pyn = pynexusx.main:main

@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 setup(
     name="pynexusx",
-    version="1.0.1",
+    version="1.1.0",
     description="A simple CLI tool to update all Python packages using VersaLog.",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -20,7 +20,7 @@ setup(
     python_requires=">=3.8",
     entry_points={
         "console_scripts": [
-            "Pyn = main:update_package"
+            "Pyn = pynexusx.main:main"
         ]
     },
     classifiers=[
